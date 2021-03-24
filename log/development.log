@@ -1,0 +1,927 @@
+  [1m[35m (4.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (26.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (12.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateDiaries (20210322142156)
+  [1m[35m (9.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateDiaries (20210322142156)
+  [1m[35m (23.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateDiaries (20210322142156)
+  [1m[35m (13.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateDiaries (20210322142156)
+  [1m[35m (15.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateDiaries (20210322142156)
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (12.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateDiaries (20210322142156)
+  [1m[35m (15.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateDiaries (20210322142156)
+  [1m[35m (15.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (5.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (15.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateNotes (20210322144427)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (15.5ms)[0m  [1m[35mCREATE TABLE "notes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "text" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (3.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210322144427"]]
+  [1m[36mTRANSACTION (154.1ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateDiaries (20210323081617)
+  [1m[35m (9.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateDiaries (20210323081617)
+  [1m[35m (123.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (14.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateDiaries (20210323081617)
+  [1m[35m (14.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateDiaries (20210323081617)
+  [1m[35m (44.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (11.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateDiaries (20210323081617)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (3.1ms)[0m  [1m[35mCREATE TABLE "diaries" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar NOT NULL, "expiration" datetime, "kind" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (8.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210323081617"]]
+  [1m[36mTRANSACTION (34.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (3.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-03-23 09:06:33.272999"], ["updated_at", "2021-03-23 09:06:33.272999"]]
+  [1m[36mTRANSACTION (11.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (15.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (6.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2021-03-24 12:04:11 +0700
+  [1m[35m (8.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#index as HTML
+Completed 500 Internal Server Error in 83ms (ActiveRecord: 0.0ms | Allocations: 2968)
+
+
+  
+ArgumentError (You tried to define an enum named "kind" on the model "Diary", but this will generate a class method "public", which is already defined by Active Record.):
+  
+app/models/diary.rb:2:in `<class:Diary>'
+app/models/diary.rb:1:in `<main>'
+app/controllers/diaries_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2021-03-24 12:15:01 +0700
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#index as HTML
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms | Allocations: 2701)
+
+
+  
+ArgumentError (You tried to define an enum named "kind" on the model "Diary", but this will generate a class method "private", which is already defined by Active Record.):
+  
+app/models/diary.rb:2:in `<class:Diary>'
+app/models/diary.rb:1:in `<main>'
+app/controllers/diaries_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2021-03-24 12:15:52 +0700
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/index.html.erb within layouts/application
+  [1m[36mDiary Load (9.2ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries"[0m
+  ↳ app/views/diaries/index.html.erb:4
+  Rendered diaries/index.html.erb within layouts/application (Duration: 17.3ms | Allocations: 1109)
+[Webpacker] Compiling...
+Started GET "/" for 127.0.0.1 at 2021-03-24 12:16:13 +0700
+Processing by DiariesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/diaries/index.html.erb:4
+  [1m[36mDiary Load (0.3ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries"[0m
+  ↳ app/views/diaries/index.html.erb:4
+  Rendered diaries/index.html.erb within layouts/application (Duration: 114.1ms | Allocations: 1406)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/tamara/TodoApp/public/packs
+[Webpacker] Hash: e332c6419728fac579d5
+Version: webpack 4.46.0
+Time: 25141ms
+Built at: 2021-03-24 12:16:36
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f826770d917d8a37c1d8.js    125 KiB  application  [emitted] [immutable]  application
+js/application-f826770d917d8a37c1d8.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f826770d917d8a37c1d8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 44191.5ms | Allocations: 24420)
+Completed 200 OK in 44262ms (Views: 44200.6ms | ActiveRecord: 9.2ms | Allocations: 29856)
+
+
+[Webpacker] Compiled all packs in /home/tamara/TodoApp/public/packs
+[Webpacker] Hash: e332c6419728fac579d5
+Version: webpack 4.46.0
+Time: 16336ms
+Built at: 2021-03-24 12:16:36
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f826770d917d8a37c1d8.js    125 KiB  application  [emitted] [immutable]  application
+js/application-f826770d917d8a37c1d8.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f826770d917d8a37c1d8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 23656.7ms | Allocations: 9370)
+Completed 200 OK in 23660ms (Views: 23608.4ms | ActiveRecord: 50.2ms | Allocations: 9785)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-24 12:48:47 +0700
+  [1m[35m (14.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/index.html.erb within layouts/application
+  [1m[36mDiary Load (9.9ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries"[0m
+  ↳ app/views/diaries/index.html.erb:4
+  Rendered diaries/index.html.erb within layouts/application (Duration: 34.5ms | Allocations: 1238)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 357.7ms | Allocations: 6964)
+Completed 200 OK in 555ms (Views: 376.3ms | ActiveRecord: 9.9ms | Allocations: 12261)
+
+
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 12:48:54 +0700
+Processing by DiariesController#show as HTML
+  Parameters: {"id"=>"new"}
+  [1m[36mDiary Load (0.3ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries" WHERE "diaries"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/diaries_controller.rb:6:in `show'
+Completed 404 Not Found in 39ms (ActiveRecord: 1.6ms | Allocations: 2362)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Diary with 'id'=new):
+  
+app/controllers/diaries_controller.rb:6:in `show'
+  [1m[35m (72.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 13:07:37 +0700
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 203.1ms | Allocations: 6741)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 457.3ms | Allocations: 12323)
+Completed 200 OK in 605ms (Views: 475.0ms | ActiveRecord: 1.2ms | Allocations: 20674)
+
+
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 13:10:52 +0700
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 16.9ms | Allocations: 1291)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 101.4ms | Allocations: 4387)
+Completed 200 OK in 117ms (Views: 114.8ms | ActiveRecord: 0.0ms | Allocations: 5621)
+
+
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 13:10:54 +0700
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 5.1ms | Allocations: 865)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.5ms | Allocations: 3732)
+Completed 200 OK in 48ms (Views: 45.8ms | ActiveRecord: 0.0ms | Allocations: 4199)
+
+
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 13:11:55 +0700
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 19.7ms | Allocations: 1296)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51.8ms | Allocations: 4404)
+Completed 200 OK in 67ms (Views: 56.9ms | ActiveRecord: 0.0ms | Allocations: 5642)
+
+
+Started POST "/diaries" for 127.0.0.1 at 2021-03-24 13:13:08 +0700
+Processing by DiariesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "diary"=>{"title"=>"My Diary one", "expiration"=>"24.03.2021 12:00", "kind"=>"public"}, "commit"=>"Create Diary"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 806)
+
+
+  
+ArgumentError ('...' is not a valid kind):
+  
+app/controllers/diaries_controller.rb:13:in `create'
+Started POST "/diaries" for 127.0.0.1 at 2021-03-24 13:13:22 +0700
+Processing by DiariesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "diary"=>{"title"=>"My Diary one", "expiration"=>"24.03.2021 12:00", "kind"=>"publlic"}, "commit"=>"Create Diary"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 703)
+
+
+  
+ArgumentError ('...' is not a valid kind):
+  
+app/controllers/diaries_controller.rb:13:in `create'
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 13:16:20 +0700
+  [1m[35m (5.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 78.2ms | Allocations: 5401)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 143.0ms | Allocations: 10984)
+Completed 200 OK in 263ms (Views: 153.5ms | ActiveRecord: 1.2ms | Allocations: 19333)
+
+
+Started POST "/diaries" for 127.0.0.1 at 2021-03-24 13:16:26 +0700
+Processing by DiariesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "diary"=>{"title"=>"My Diary one", "expiration"=>"24.03.2021 12:00", "kind"=>"publlic"}, "commit"=>"Create Diary"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 823)
+
+
+  
+ArgumentError ('{:publlic=>1, :privatte=>2}' is not a valid kind):
+  
+app/controllers/diaries_controller.rb:13:in `create'
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 14:01:34 +0700
+  [1m[35m (10.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/home/tamara/TodoApp/app/controllers/diaries_controller.rb:13: syntax error, unexpected ',', expecting =>
+...iration: "...", kind: {publlic, privatte})
+...                              ^
+):
+  
+app/controllers/diaries_controller.rb:13: syntax error, unexpected ',', expecting =>
+app/controllers/diaries_controller.rb:13: syntax error, unexpected ',', expecting =>
+app/controllers/diaries_controller.rb:13: syntax error, unexpected ',', expecting =>
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 14:02:42 +0700
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 100.9ms | Allocations: 5400)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 373.0ms | Allocations: 10980)
+Completed 200 OK in 496ms (Views: 380.7ms | ActiveRecord: 1.0ms | Allocations: 19335)
+
+
+Started POST "/diaries" for 127.0.0.1 at 2021-03-24 14:03:24 +0700
+Processing by DiariesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "diary"=>{"title"=>"My Diary one", "expiration"=>"25.02.2021 12:12", "kind"=>"privatte"}, "commit"=>"Create Diary"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 808)
+
+
+  
+ArgumentError ('...' is not a valid kind):
+  
+app/controllers/diaries_controller.rb:13:in `create'
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 14:07:47 +0700
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 20.0ms | Allocations: 5406)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.8ms | Allocations: 10987)
+Completed 200 OK in 160ms (Views: 64.6ms | ActiveRecord: 1.2ms | Allocations: 19366)
+
+
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 14:08:49 +0700
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 23.9ms | Allocations: 5401)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 57.1ms | Allocations: 10982)
+Completed 200 OK in 162ms (Views: 65.3ms | ActiveRecord: 1.3ms | Allocations: 19333)
+
+
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 14:13:48 +0700
+  [1m[35m (17.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 234.7ms | Allocations: 5344)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 723.7ms | Allocations: 10930)
+Completed 200 OK in 1093ms (Views: 764.0ms | ActiveRecord: 1.8ms | Allocations: 19281)
+
+
+  [1m[35m (13.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (31.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 15:16:06 +0700
+Started GET "/" for 127.0.0.1 at 2021-03-24 15:16:06 +0700
+  [1m[35m (11.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#index as HTML
+Processing by DiariesController#new as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/diaries_controller.rb:9:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/index.html.erb within layouts/application
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  [1m[36mDiary Load (23.7ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries"[0m
+  ↳ app/views/diaries/index.html.erb:4
+  Rendered diaries/index.html.erb within layouts/application (Duration: 81.2ms | Allocations: 2464)
+  Rendered diaries/new.html.erb within layouts/application (Duration: 143.1ms | Allocations: 6794)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 1058.6ms | Allocations: 48504)
+Completed 200 OK in 1310ms (Views: 1089.1ms | ActiveRecord: 1.9ms | Allocations: 57601)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 1121.0ms | Allocations: 50331)
+Completed 200 OK in 1348ms (Views: 1160.4ms | ActiveRecord: 23.7ms | Allocations: 59527)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-24 15:16:10 +0700
+Processing by DiariesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/index.html.erb within layouts/application
+  [1m[36mDiary Load (0.3ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries"[0m
+  ↳ app/views/diaries/index.html.erb:4
+  Rendered diaries/index.html.erb within layouts/application (Duration: 12.3ms | Allocations: 721)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.8ms | Allocations: 3655)
+Completed 200 OK in 52ms (Views: 45.7ms | ActiveRecord: 0.3ms | Allocations: 4137)
+
+
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 15:16:13 +0700
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 826)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.7ms | Allocations: 3750)
+Completed 200 OK in 45ms (Views: 42.7ms | ActiveRecord: 0.0ms | Allocations: 4220)
+
+
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 15:17:27 +0700
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 62.6ms | Allocations: 5349)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 101.6ms | Allocations: 11300)
+Completed 200 OK in 171ms (Views: 107.8ms | ActiveRecord: 1.5ms | Allocations: 19665)
+
+
+Started POST "/diaries" for 127.0.0.1 at 2021-03-24 15:17:46 +0700
+Processing by DiariesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "diary"=>{"title"=>"", "expiration"=>""}, "answer"=>"a2", "commit"=>"Create Diary"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 810)
+
+
+  
+ArgumentError ('...' is not a valid kind):
+  
+app/controllers/diaries_controller.rb:13:in `create'
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 18:51:16 +0700
+  [1m[35m (11.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 100.4ms | Allocations: 5352)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 362.4ms | Allocations: 11313)
+Completed 200 OK in 477ms (Views: 371.2ms | ActiveRecord: 1.1ms | Allocations: 19676)
+
+
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDiary Create (77.8ms)[0m  [1m[32mINSERT INTO "diaries" ("title", "kind", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Hello Rails"], ["kind", 2], ["created_at", "2021-03-24 12:45:40.535439"], ["updated_at", "2021-03-24 12:45:40.535439"]]
+  [1m[36mTRANSACTION (27.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (11.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDiary Create (9.7ms)[0m  [1m[32mINSERT INTO "diaries" ("title", "expiration", "kind", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Homies"], ["expiration", "2021-03-14 12:00:00"], ["kind", 1], ["created_at", "2021-03-24 13:28:40.198529"], ["updated_at", "2021-03-24 13:28:40.198529"]]
+  [1m[36mTRANSACTION (42.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mDiary Load (0.7ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 20:45:00 +0700
+  [1m[35m (14.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (9.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#new as HTML
+Filter chain halted as #<Proc:0x00007f091436a3e8 /home/tamara/.rvm/gems/ruby-3.0.0/gems/actionpack-6.1.3/lib/action_controller/metal/http_authentication.rb:73> rendered or redirected
+Completed 401 Unauthorized in 56ms (ActiveRecord: 0.0ms | Allocations: 1392)
+
+
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 20:45:24 +0700
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 82.2ms | Allocations: 5262)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 456.6ms | Allocations: 11196)
+Completed 200 OK in 651ms (Views: 493.5ms | ActiveRecord: 1.5ms | Allocations: 20152)
+
+
+Started POST "/diaries" for 127.0.0.1 at 2021-03-24 20:46:11 +0700
+Processing by DiariesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "diary"=>{"title"=>"New Diary", "expiration"=>"14.05.2021 12:00"}, "answer"=>"a2", "commit"=>"Create Diary"}
+Filter chain halted as #<Proc:0x00007f091436a3e8 /home/tamara/.rvm/gems/ruby-3.0.0/gems/actionpack-6.1.3/lib/action_controller/metal/http_authentication.rb:73> rendered or redirected
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started POST "/diaries" for 127.0.0.1 at 2021-03-24 20:46:11 +0700
+Processing by DiariesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "diary"=>{"title"=>"New Diary", "expiration"=>"14.05.2021 12:00"}, "answer"=>"a2", "commit"=>"Create Diary"}
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 778)
+
+
+  
+ArgumentError ('...' is not a valid kind):
+  
+app/controllers/diaries_controller.rb:14:in `create'
+Started POST "/diaries" for 127.0.0.1 at 2021-03-24 20:47:54 +0700
+Processing by DiariesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "diary"=>{"title"=>"New Diary", "expiration"=>"14.05.2021 12:00"}, "answer"=>"a2", "commit"=>"Create Diary"}
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/diaries_controller.rb:14:in `create'
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 2.8ms | Allocations: 5716)
+
+
+  
+ArgumentError ('...' is not a valid kind):
+  
+app/controllers/diaries_controller.rb:14:in `create'
+Started POST "/diaries" for 127.0.0.1 at 2021-03-24 20:48:02 +0700
+Processing by DiariesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "diary"=>{"title"=>"New Diary", "expiration"=>"14.05.2021 12:00"}, "answer"=>"a2", "commit"=>"Create Diary"}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 728)
+
+
+  
+ArgumentError ('...' is not a valid kind):
+  
+app/controllers/diaries_controller.rb:14:in `create'
+Started POST "/diaries" for 127.0.0.1 at 2021-03-24 20:49:04 +0700
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "diary"=>{"title"=>"New Diary", "expiration"=>"14.05.2021 12:00"}, "answer"=>"a2", "commit"=>"Create Diary"}
+Completed 500 Internal Server Error in 68ms (ActiveRecord: 1.7ms | Allocations: 7234)
+
+
+  
+ArgumentError ('...' is not a valid kind):
+  
+app/controllers/diaries_controller.rb:14:in `create'
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 20:49:12 +0700
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 40.2ms | Allocations: 5087)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 94.6ms | Allocations: 11005)
+Completed 200 OK in 104ms (Views: 99.7ms | ActiveRecord: 0.0ms | Allocations: 12399)
+
+
+Started POST "/diaries" for 127.0.0.1 at 2021-03-24 20:49:15 +0700
+Processing by DiariesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "diary"=>{"title"=>"New Diary", "expiration"=>"14.05.2021 12:00"}, "answer"=>"publlic", "commit"=>"Create Diary"}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 736)
+
+
+  
+ArgumentError ('...' is not a valid kind):
+  
+app/controllers/diaries_controller.rb:14:in `create'
+Started POST "/diaries" for 127.0.0.1 at 2021-03-24 20:51:34 +0700
+Processing by DiariesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "diary"=>{"title"=>"New Diary", "expiration"=>"14.05.2021 12:00"}, "answer"=>"publlic", "commit"=>"Create Diary"}
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/diaries_controller.rb:14:in `create'
+Completed 500 Internal Server Error in 84ms (ActiveRecord: 2.1ms | Allocations: 5713)
+
+
+  
+ArgumentError ('answer' is not a valid kind):
+  
+app/controllers/diaries_controller.rb:14:in `create'
+Started POST "/diaries" for 127.0.0.1 at 2021-03-24 20:52:01 +0700
+Processing by DiariesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "diary"=>{"title"=>"New Diary", "expiration"=>"14.05.2021 12:00"}, "answer"=>"publlic", "commit"=>"Create Diary"}
+Completed 500 Internal Server Error in 82ms (Allocations: 4491)
+
+
+  
+NameError (undefined local variable or method `answer' for #<DiariesController:0x0000000000b5b8>):
+  
+app/controllers/diaries_controller.rb:14:in `create'
+Started POST "/diaries" for 127.0.0.1 at 2021-03-24 20:52:45 +0700
+Processing by DiariesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "diary"=>{"title"=>"New Diary", "expiration"=>"14.05.2021 12:00"}, "answer"=>"publlic", "commit"=>"Create Diary"}
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/diaries_controller.rb:14:in `create'
+Completed 500 Internal Server Error in 80ms (ActiveRecord: 2.3ms | Allocations: 5678)
+
+
+  
+ArgumentError ('...' is not a valid kind):
+  
+app/controllers/diaries_controller.rb:14:in `create'
+Started POST "/diaries" for 127.0.0.1 at 2021-03-24 20:56:24 +0700
+Processing by DiariesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "diary"=>{"title"=>"New Diary", "expiration"=>"14.05.2021 12:00"}, "answer"=>"publlic", "commit"=>"Create Diary"}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 736)
+
+
+  
+ArgumentError ('...' is not a valid kind):
+  
+app/controllers/diaries_controller.rb:14:in `create'
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 20:56:29 +0700
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1400)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 1470)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms | Allocations: 2702)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<h1>New Diary</h1>
+
+<%= form_with model: @diary, local: true do |form| %>
+  <div>
+    <%= form.label :title %><br>
+    <%= form.text_field :title %>
+    <%= @diary.errors.full_messages_for(:title).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+
+  <div>
+    <%= form.label :expiration %><br>
+    <%= form.text_area :expiration %>
+    <%= @diary.errors.full_messages_for(:expiration).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+
+<div>
+    <%= form.label :kind %><br>
+    <%= input type="radio" name="answer" value="privatte"%>Private<Br>
+  <%= input type="radio" name="answer" value="publlic"%>Public<Br>
+  <script>
+  function kinddiary(f)
+  {if (f.publlic.checked) f.text_area :expiration.disabled=1
+  else f.text_area :expiration.disabled=0
+  }</script>
+     <%= @diary.errors.full_messages_for(:kind).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+  
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
+
+
+
+):
+1:    
+2:    <h1>New Diary</h1>
+3:    
+4:    <%= form_with model: @diary, local: true do |form| %>
+5:      <div>
+6:        <%= form.label :title %><br>
+7:        <%= form.text_field :title %>
+8:        <%= @diary.errors.full_messages_for(:title).each do |message| %>
+9:          <div><%= message %></div>
+10:        <% end %>
+11:      </div>
+12:    
+13:      <div>
+14:        <%= form.label :expiration %><br>
+15:        <%= form.text_area :expiration %>
+16:        <%= @diary.errors.full_messages_for(:expiration).each do |message| %>
+17:          <div><%= message %></div>
+18:        <% end %>
+19:      </div>
+20:    
+21:    <div>
+22:        <%= form.label :kind %><br>
+23:        <%= input type="radio" name="answer" value="privatte"%>Private<Br>
+24:      <%= input type="radio" name="answer" value="publlic"%>Public<Br>
+25:      <script>
+26:      function kinddiary(f)
+27:      {if (f.publlic.checked) f.text_area :expiration.disabled=1
+28:      else f.text_area :expiration.disabled=0
+29:      }</script>
+30:         <%= @diary.errors.full_messages_for(:kind).each do |message| %>
+31:          <div><%= message %></div>
+32:        <% end %>
+33:      </div>
+34:      
+35:      <div>
+36:        <%= form.submit %>
+37:      </div>
+38:    <% end %>
+  
+app/views/diaries/new.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+app/views/diaries/new.html.erb:24: syntax error, unexpected local variable or method, expecting ')'
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 20:57:04 +0700
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 25.2ms | Allocations: 1321)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 63.4ms | Allocations: 4490)
+Completed 200 OK in 80ms (Views: 77.6ms | ActiveRecord: 0.0ms | Allocations: 5740)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-24 21:04:39 +0700
+Processing by DiariesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/diaries/index.html.erb:4
+  [1m[36mDiary Load (6.4ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries"[0m
+  ↳ app/views/diaries/index.html.erb:4
+  Rendered diaries/index.html.erb within layouts/application (Duration: 94.9ms | Allocations: 1800)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 293.6ms | Allocations: 4970)
+Completed 200 OK in 368ms (Views: 365.1ms | ActiveRecord: 12.0ms | Allocations: 6242)
+
+
+Started GET "/diaries/1" for 127.0.0.1 at 2021-03-24 21:04:47 +0700
+Processing by DiariesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDiary Load (396.8ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries" WHERE "diaries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/diaries_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/show.html.erb within layouts/application
+  [1m[36mNote Load (10.3ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."diary_id" = ?[0m  [["diary_id", 1]]
+  ↳ app/views/diaries/show.html.erb:16
+  Rendered diaries/show.html.erb within layouts/application (Duration: 402.2ms | Allocations: 9368)
+  Rendered layout layouts/application.html.erb (Duration: 402.9ms | Allocations: 9436)
+Completed 500 Internal Server Error in 3065ms (ActiveRecord: 407.6ms | Allocations: 12704)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such column: notes.diary_id):
+    13:                   data: { confirm: "Are you sure?" } %></li>
+    14: </ul>
+    15: <h2>Notes</h2>
+    16: <%= render @diary.notes %>
+    17: 
+    18: <h2>Add a note:</h2>
+    19: <%= render 'notes/form' %>
+  
+app/views/diaries/show.html.erb:16
+Started GET "/diaries/1" for 127.0.0.1 at 2021-03-24 21:44:39 +0700
+Processing by DiariesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/diaries_controller.rb:7:in `show'
+  [1m[36mDiary Load (12.1ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries" WHERE "diaries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/diaries_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/show.html.erb within layouts/application
+  [1m[36mNote Load (7.2ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."diary_id" = ?[0m  [["diary_id", 1]]
+  ↳ app/views/diaries/show.html.erb:16
+  Rendered diaries/show.html.erb within layouts/application (Duration: 46.1ms | Allocations: 2668)
+  Rendered layout layouts/application.html.erb (Duration: 49.4ms | Allocations: 2737)
+Completed 500 Internal Server Error in 172ms (ActiveRecord: 20.0ms | Allocations: 5066)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such column: notes.diary_id):
+    13:                   data: { confirm: "Are you sure?" } %></li>
+    14: </ul>
+    15: <h2>Notes</h2>
+    16: <%= render @diary.notes %>
+    17: 
+    18: <h2>Add a note:</h2>
+    19: <%= render 'notes/form' %>
+  
+app/views/diaries/show.html.erb:16
+Started GET "/" for 127.0.0.1 at 2021-03-24 21:44:46 +0700
+Processing by DiariesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/index.html.erb within layouts/application
+  [1m[36mDiary Load (0.4ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries"[0m
+  ↳ app/views/diaries/index.html.erb:4
+  Rendered diaries/index.html.erb within layouts/application (Duration: 66.5ms | Allocations: 952)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 290.9ms | Allocations: 4134)
+Completed 200 OK in 301ms (Views: 292.1ms | ActiveRecord: 0.4ms | Allocations: 4720)
+
+
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 21:44:53 +0700
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 26.3ms | Allocations: 1225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 68.5ms | Allocations: 4147)
+Completed 200 OK in 88ms (Views: 71.9ms | ActiveRecord: 0.0ms | Allocations: 4758)
+
+
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 21:45:05 +0700
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 9.6ms | Allocations: 826)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.6ms | Allocations: 3750)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.0ms | Allocations: 4244)
+
+
+Started GET "/diaries/1" for 127.0.0.1 at 2021-03-24 21:45:07 +0700
+Processing by DiariesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDiary Load (0.2ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries" WHERE "diaries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/diaries_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/show.html.erb within layouts/application
+  [1m[36mNote Load (7.2ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."diary_id" = ?[0m  [["diary_id", 1]]
+  ↳ app/views/diaries/show.html.erb:16
+  Rendered diaries/show.html.erb within layouts/application (Duration: 20.5ms | Allocations: 2453)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 2521)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 7.4ms | Allocations: 3473)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such column: notes.diary_id):
+    13:                   data: { confirm: "Are you sure?" } %></li>
+    14: </ul>
+    15: <h2>Notes</h2>
+    16: <%= render @diary.notes %>
+    17: 
+    18: <h2>Add a note:</h2>
+    19: <%= render 'notes/form' %>
+  
+app/views/diaries/show.html.erb:16
+  [1m[35m (32.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (22.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (31.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2021-03-24 22:31:30 +0700
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/index.html.erb within layouts/application
+  [1m[36mDiary Load (6.5ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries"[0m
+  ↳ app/views/diaries/index.html.erb:4
+  Rendered diaries/index.html.erb within layouts/application (Duration: 132.0ms | Allocations: 4503)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 1187.0ms | Allocations: 10600)
+Completed 200 OK in 1588ms (Views: 1266.2ms | ActiveRecord: 7.8ms | Allocations: 15959)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-24 22:31:35 +0700
+Processing by DiariesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/index.html.erb within layouts/application
+  [1m[36mDiary Load (0.2ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries"[0m
+  ↳ app/views/diaries/index.html.erb:4
+  Rendered diaries/index.html.erb within layouts/application (Duration: 20.8ms | Allocations: 785)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51.2ms | Allocations: 3721)
+Completed 200 OK in 68ms (Views: 66.4ms | ActiveRecord: 0.2ms | Allocations: 4193)
+
+
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 22:31:39 +0700
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 251.2ms | Allocations: 4963)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 261.9ms | Allocations: 7788)
+Completed 200 OK in 276ms (Views: 268.3ms | ActiveRecord: 0.0ms | Allocations: 8463)
+
+
+Started POST "/diaries" for 127.0.0.1 at 2021-03-24 22:31:49 +0700
+Processing by DiariesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "diary"=>{"title"=>"ggg", "expiration"=>"ggg"}, "answer"=>"privatte", "commit"=>"Create Diary"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 853)
+
+
+  
+ArgumentError ('...' is not a valid kind):
+  
+app/controllers/diaries_controller.rb:14:in `create'
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 22:32:11 +0700
+Processing by DiariesController#new as HTML
+Filter chain halted as #<Proc:0x00005605077b1418 /home/tamara/.rvm/gems/ruby-3.0.0/gems/actionpack-6.1.3/lib/action_controller/metal/http_authentication.rb:73> rendered or redirected
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 173)
+
+
+Started GET "/diaries/new" for 127.0.0.1 at 2021-03-24 22:36:37 +0700
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DiariesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/new.html.erb within layouts/application
+  Rendered diaries/new.html.erb within layouts/application (Duration: 44.2ms | Allocations: 5347)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 86.2ms | Allocations: 11293)
+Completed 200 OK in 167ms (Views: 96.0ms | ActiveRecord: 1.3ms | Allocations: 19750)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-24 22:36:39 +0700
+Processing by DiariesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/index.html.erb within layouts/application
+  [1m[36mDiary Load (0.3ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries"[0m
+  ↳ app/views/diaries/index.html.erb:4
+  Rendered diaries/index.html.erb within layouts/application (Duration: 27.2ms | Allocations: 1094)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.5ms | Allocations: 4030)
+Completed 200 OK in 71ms (Views: 62.8ms | ActiveRecord: 0.3ms | Allocations: 4682)
+
+
+Started GET "/diaries/2" for 127.0.0.1 at 2021-03-24 22:36:53 +0700
+Processing by DiariesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mDiary Load (0.5ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries" WHERE "diaries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/diaries_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/show.html.erb within layouts/application
+  [1m[36mNote Load (60.6ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."diary_id" = ?[0m  [["diary_id", 2]]
+  ↳ app/views/diaries/show.html.erb:16
+  Rendered diaries/show.html.erb within layouts/application (Duration: 340.9ms | Allocations: 7006)
+  Rendered layout layouts/application.html.erb (Duration: 341.6ms | Allocations: 7075)
+Completed 500 Internal Server Error in 378ms (ActiveRecord: 61.8ms | Allocations: 8791)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such column: notes.diary_id):
+    13:                   data: { confirm: "Are you sure?" } %></li>
+    14: </ul>
+    15: <h2>Notes</h2>
+    16: <%= render @diary.notes %>
+    17: 
+    18: <h2>Add a note:</h2>
+    19: <%= render 'notes/form' %>
+  
+app/views/diaries/show.html.erb:16
+Started GET "/" for 127.0.0.1 at 2021-03-24 22:37:04 +0700
+Processing by DiariesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering diaries/index.html.erb within layouts/application
+  [1m[36mDiary Load (0.2ms)[0m  [1m[34mSELECT "diaries".* FROM "diaries"[0m
+  ↳ app/views/diaries/index.html.erb:4
+  Rendered diaries/index.html.erb within layouts/application (Duration: 14.9ms | Allocations: 777)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.4ms | Allocations: 3725)
+Completed 200 OK in 47ms (Views: 37.6ms | ActiveRecord: 0.2ms | Allocations: 4183)
+
+
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m

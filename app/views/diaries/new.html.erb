@@ -1,0 +1,40 @@
+
+<h1>New Diary</h1>
+
+<%= form_with model: @diary, local: true do |form| %>
+  <div>
+    <%= form.label :title %><br>
+    <%= form.text_field :title %>
+    <%= @diary.errors.full_messages_for(:title).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+
+  <div>
+    <%= form.label :expiration %><br>
+    <%= form.text_area :expiration %>
+    <%= @diary.errors.full_messages_for(:expiration).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+
+<div>
+    <%= form.label :kind %><br>
+    <p><input type="radio" name="answer" value="privatte">Private<Br>
+  <input type="radio" name="answer" value="publlic">Public<Br></p>
+  <script>
+  function kinddiary(f)
+  {if (f.publlic.checked) f.text_area :expiration.disabled=1
+  else f.text_area :expiration.disabled=0
+  }</script>
+     <%= @diary.errors.full_messages_for(:kind).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+  
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
+
+

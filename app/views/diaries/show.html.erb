@@ -1,0 +1,19 @@
+
+
+<h1><%= @diary.title %></h1>
+
+<p><%= @diary.expiration %></p>
+
+<p><%= @diary.kind %></p>
+
+<ul>
+  <li><%= link_to "Edit", edit_diary_path(@diary) %></li>
+  <li><%= link_to "Destroy", diary_path(@diary),
+                  method: :delete,
+                  data: { confirm: "Are you sure?" } %></li>
+</ul>
+<h2>Notes</h2>
+<%= render @diary.notes %>
+
+<h2>Add a note:</h2>
+<%= render 'notes/form' %>
